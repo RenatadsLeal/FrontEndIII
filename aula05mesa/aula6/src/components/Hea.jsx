@@ -1,6 +1,6 @@
-import "../styles/header.css"
+import "../styles/hea.css"
 
-const Header = () => {
+const Hea = () => {
     return (
         <header>
             <div id="header">
@@ -20,4 +20,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Hea

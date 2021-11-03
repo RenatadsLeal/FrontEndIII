@@ -2,12 +2,12 @@ import '../styles/App.css';
 
 import ClassComponent from '../components/ClassComponent';
 import FunctionComponent from '../components/FunctionComponent';
-import Header from '../components/Header/Header';
+import Hea from '../components/Hea';
  
 function App() {
  return (
  <div className="App">
-   <Header/>
+  <Hea/>
   <h3>Convidado:</h3>
   <ClassComponent nome="Nicolas" estaNaLista={true} />
   <ClassComponent nome="Pedro" estaNaLista={false} />
