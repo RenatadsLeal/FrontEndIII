@@ -2,7 +2,7 @@ import '../styles/App.css';
 
 import ClassComponent from '../components/ClassComponent';
 import FunctionComponent from '../components/FunctionComponent';
-import Header from '../components/Header';
+import Header from '../components/Header/Header';
  
 function App() {
  return (
