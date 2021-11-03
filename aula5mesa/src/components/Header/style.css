@@ -7,6 +7,10 @@
     background: rgb(216, 207, 194);
 }
 
+#title h1{
+    font-weight: normal;
+}
+
 #header li {
     display: inline;
     justify-content: space-between;
