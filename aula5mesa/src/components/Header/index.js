@@ -7,13 +7,12 @@ const Header = () => {
                 <div id="nav">
                     <nav>
                         <ul>
-                            <li><a href="#">Croissant?</a></li>
-                            <li><a href="#">More croissant</a></li>
+                            <li><a href="https://google.com">Croissant?</a></li>
+                            <li><a href="https://google.com">More croissant</a></li>
                         </ul>
                     </nav>
                 </div>
         </header>
-
     )
 }
 
