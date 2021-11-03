@@ -1,4 +1,4 @@
-import "../styles/hea.css"
+// import "../styles/hea.css"
 
 const Hea = () => {
     return (
