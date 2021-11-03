@@ -4,7 +4,6 @@ const Hea = () => {
     return (
         <header>
             <div id="header">
-                {/* <img src="" alt="" /> */}
                 <div id="title"><h1>Croissant.</h1></div>
                 <div id="nav">
                     <nav>
