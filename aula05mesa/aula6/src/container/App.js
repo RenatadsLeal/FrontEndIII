@@ -2,12 +2,15 @@ import '../styles/App.css';
 
 import ClassComponent from '../components/ClassComponent';
 import FunctionComponent from '../components/FunctionComponent';
-import Hea from '../components/Hea';
+import Footer from '../components/Footer';
  
 function App() {
+  const empresa = {
+    nome: "Croissant. company",
+    cnpj: "6546545465"
+  }
  return (
  <div className="App">
-  <Hea/>
   <h3>Convidado:</h3>
   <ClassComponent nome="Nicolas" estaNaLista={true} />
   <ClassComponent nome="Pedro" estaNaLista={false} />
@@ -16,6 +19,7 @@ function App() {
   <FunctionComponent nome="Nicolas" tarefa="batata-frita" />
   <FunctionComponent nome="Pedro" tarefa="pizza" />
   <FunctionComponent nome="Carolina" tarefa="bebidas" />
+   <Footer empresa={empresa}></Footer>
 </div>
 
  );
