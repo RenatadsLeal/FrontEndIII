@@ -4,7 +4,7 @@
     align-items: flex-end;
     color: rgb(55, 55, 55);
     height: 82vh;
-    background: center / cover no-repeat url(https://images.pexels.com/photos/5749105/pexels-photo-5749105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    /* background: center / cover no-repeat url(https://images.pexels.com/photos/5749105/pexels-photo-5749105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
 }
 
 .banner p {
