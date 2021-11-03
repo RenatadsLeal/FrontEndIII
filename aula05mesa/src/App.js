@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Banner>Croissant</Banner>
-      <Footer empresa={empresa}></Footer>
+      {/* <Banner>Croissant</Banner> */}
+      {/* <Footer empresa={empresa}></Footer> */}
     </div>
   );
 }
