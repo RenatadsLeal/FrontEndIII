@@ -1,4 +1,4 @@
-.header {
+#header {
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -11,13 +11,13 @@
     font-weight: normal;
 }
 
-.header li {
+#header li {
     display: inline;
     justify-content: space-between;
-    padding: 0.1rem;
+    /* padding: 0.2rem; */
 }
 
-.header li:hover{
+#header li:hover{
     background: rgb(203, 180, 148);
 }
 
