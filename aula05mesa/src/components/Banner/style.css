@@ -1,0 +1,47 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgb(55, 55, 55);
+    height: 82vh;
+    background: center / cover no-repeat url(https://images.pexels.com/photos/5749105/pexels-photo-5749105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+.banner p {
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner button {
+    margin: 0.2rem;
+    background: rgb(203, 180, 148);
+    border: none;
+    width: 4.5rem;
+    height: 1.4rem;
+    border-radius: 0.2rem;
+    color: rgb(55, 55, 55);
+    cursor: pointer;
+    align-self: flex-end;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+}
+
+.banner button:hover {
+    background: rgb(208, 196, 180);
+}
+
+#bannerContent {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.5rem;
+    width: 100%;
+    height: 13rem;
+    background: rgba(245, 245, 245, 0.577);
+}
+
+@media only screen and (min-width: 1000px) {
+    #bannerContent {
+        height: 5rem;
+    }
+}
