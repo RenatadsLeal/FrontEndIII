@@ -7,8 +7,10 @@ const Header = () => {
                 <div id="nav">
                     <nav>
                         <ul>
-                            <li><a href="https://google.com">Croissant?</a></li>
-                            <li><a href="https://google.com">More croissant</a></li>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <li><a href="#">Croissant?</a></li>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <li><a href="#">More croissant</a></li>
                         </ul>
                     </nav>
                 </div>
