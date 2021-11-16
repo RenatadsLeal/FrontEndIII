@@ -16,13 +16,13 @@ export default class Header extends Component {
             <div className="collapse navbar-collapse justify-content-end" id="navbarsExample03">
               <ul className="navbar-nav mb-2 mb-sm-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Home</a>
+                  <a className="nav-link text-white" aria-current="page" href="#">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#projects">Projects</a>
+                  <a className="nav-link text-white" href="#projects">Projects</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#footer">Contact</a>
+                  <a className="nav-link text-white" href="#footer">Contact</a>
                 </li>
               </ul>
             </div>
