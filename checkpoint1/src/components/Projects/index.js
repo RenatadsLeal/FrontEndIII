@@ -32,7 +32,7 @@ export default class Projects extends Component {
             image: ohMyTasks,
             description: "A group project. Missing deadlines? Can't seem to remember everything you need to do? Forgot to feed the dog? Save your tasks and never forget them*! Unless you want to. *You still need to remember to open the website.",
             url: "https://helenaperdigueiro.github.io/CheckpointIIFrontEndII/",
-            linkMessage: "☑ Click here",
+            linkMessage: "☐ Click here",
             codeLink: "https://github.com/helenaperdigueiro/CheckpointIIFrontEndII"
         }
     ];
