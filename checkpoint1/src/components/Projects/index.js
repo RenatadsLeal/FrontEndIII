@@ -46,8 +46,8 @@ export default class Projects extends Component {
                             <h5>{name}</h5>
                             <a href={url}><img className="projectImage" src={image} alt={name} /></a>
                             <p>{description}</p>
-                            <a href={url}>{linkMessage}</a>
-                            <a href={codeLink}><img width="24" height="24" src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="github" /></a>
+                            <a href={url} target="_blank" rel="noreferrer">{linkMessage}</a>
+                            <a href={codeLink} target="_blank" rel="noreferrer"><img width="24" height="24" src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="github" /></a>
                         </div>
                     )
                 })
