@@ -1,0 +1,42 @@
+#projects {
+    background-color: rgb(206, 206, 206);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-items: center;
+    align-content: center;
+}
+
+.projectImage {
+    width: 100%;
+}
+
+.insideCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 95%;
+    height: fit-content;
+    background-color: rgb(213, 213, 213);
+    border-radius: 5px;
+    a {
+        text-decoration: none;
+        color: rgb(96, 96, 96);
+        &:hover{
+            color: rgb(48, 48, 48);
+        }
+    }
+    p {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 500px){
+    #projects {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
+    
+}
